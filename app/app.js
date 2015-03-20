@@ -16,7 +16,8 @@ commander
     .option('-c, --config <file>', 'configuration file path', './config/config.js')
     .option('-s, --server <server ip>', 'ip of server', '127.0.0.1')
     .option('-t, --tag <tag>', 'name of the hash tag', 'sorenso')
-    .option('-s, --user <tag>', 'name of the user', 'sorenso')
+    .option('-u, --user <tag>', 'name of the user')
+    .option('-l, --limit <tag>', 'max number of medias to fetch', 10)
     .parse(process.argv);
 
 var config = require(appPath + commander.config);
@@ -32,7 +33,7 @@ var Insta = require(appPath + 'lib/instagram.js'),
         logger: logger
     });
 
-when(insta.getRecentMediasForTagFull(commander.tag, commander.user, 10))
+when(insta.getRecentMediasForTagFull(commander.tag, commander.user, commander.limit))
     .done(function (mediaList) {
         //console.log('mediaList', JSON.stringify(mediaList, null, 4));
         for (var i = 0; i < mediaList.length; i++) {
