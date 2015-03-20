@@ -5,7 +5,37 @@
 
 A node.js lib to get recent photos related to a tag.
 
-## Howto
+## npm install
+
+```bash
+npm install instagram-analyzer
+```
+
+Then you can use it like this:
+```javascript
+var when   = require('when');
+var Instagram = require('instagram-analyzer');
+
+var insta = new Instagram({
+    instagram: {
+        clientId: 'your client id',
+        clientSecret: 'your client secret'
+    }
+});
+
+when(insta.getRecentMediasForTagFull('sorenso', 'sorenso', 2))
+    .done(function (mediaList) {
+        for (var i = 0; i < mediaList.length; i++) {
+            console.log('#' + i + ': ', mediaList[i].caption.text);
+            console.log('    ', 'Likes (count/elements):', mediaList[i].likes.count, mediaList[i].likes.data.length);
+            console.log('    ', 'Comments (count/elements):', mediaList[i].comments.count, mediaList[i].comments.data.length);
+        }
+    }, console.error);
+
+```
+
+
+## Howto run app
 
 Copy `config-dist.js` to `config.js` and insert your Instagram clientId and clientSecret.
 ```bash
