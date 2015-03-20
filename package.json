@@ -1,13 +1,13 @@
 {
-  "name": "node-boilerplate",
-  "description": "A nice boilerplate with unit tests, linting and code coverage.",
-  "version": "0.2.0",
-  "homepage": "https://github.com/5orenso/node-boilerplate",
+  "name": "instagram-analyzer",
+  "description": "A node.js lib to get recent photos related to a tag.",
+  "version": "1.0.2",
+  "homepage": "https://github.com/5orenso/instagram-analyzer",
   "author": {
     "name": "Øistein Sørensen",
     "email": "sorenso@gmail.com"
   },
-  "main": "main",
+  "main": "lib/instagram.js",
   "engines": {
     "node": ">=0.10.33"
   },
