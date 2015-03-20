@@ -5,7 +5,6 @@
  * Licensed under the MIT license.
  */
 module.exports = {
-    version: '1.0.0',
     logLevel: 'debug', // debug, verbose, info
     instagram: {
         clientId: '<your own instagram client id>',
