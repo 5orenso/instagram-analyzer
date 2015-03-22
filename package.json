@@ -1,8 +1,15 @@
 {
   "name": "instagram-analyzer",
-  "description": "A node.js lib to get recent photos related to a tag.",
-  "version": "1.0.2",
+  "description": "A node.js lib to get recent photos, with all likes and comments, related to a tag.",
+  "version": "1.0.3",
   "homepage": "https://github.com/5orenso/instagram-analyzer",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/5orenso/instagram-analyzer"
+  },
+  "bugs": {
+    "url": "https://github.com/5orenso/instagram-analyzer/issues"
+  },
   "author": {
     "name": "Øistein Sørensen",
     "email": "sorenso@gmail.com"
