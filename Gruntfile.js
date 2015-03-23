@@ -69,6 +69,7 @@ module.exports = function (grunt) {
                         console.log('s3cmd put artifact/' + stdout + '.tar.gz s3://instagram-analyzer-releases/');
                         console.log('');
                         console.log('PS! Remember to upload a corresponding config tar-ball to s3://instagram-analyzer-<purpose>-configs');
+                        console.log('PS2! Remember to publish npm module with npm publish');
                         cb();
                     }
                 }
