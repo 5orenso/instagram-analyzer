@@ -1,0 +1,14 @@
+* _2015-03-23_: Added changelog generator. (HEAD, origin/master, origin/HEAD, master) [Øistein Sørensen] <a href="http://github.com/5orenso/instagram-analyzer/commit/d2949ec3893ff935f72b84c1e475ffc3f92eca7b">view commit</a>
+* _2015-03-23_: Fixed release generation and added changelog generation. [Øistein Sørensen] <a href="http://github.com/5orenso/instagram-analyzer/commit/d8932c23619c4198eb6a579d00f71c4cfb43cfdb">view commit</a>
+* _2015-03-22_: Fixed description. (tag: 1.0.3) [Øistein Sørensen] <a href="http://github.com/5orenso/instagram-analyzer/commit/19439279f08ee46b92ddebec6a895912a5b64719">view commit</a>
+* _2015-03-22_: Fixed setting for repo, bugs and descriptions. [Øistein Sørensen] <a href="http://github.com/5orenso/instagram-analyzer/commit/486fb9bb47697d2cb0a4ca3aa9626ac398baff2a">view commit</a>
+* _2015-03-20_: Updated with an example usage. [Øistein Sørensen] <a href="http://github.com/5orenso/instagram-analyzer/commit/6d03ef890356a454508c76661cff2ffe53ce9e58">view commit</a>
+* _2015-03-20_: Fixed description, name, homepage etc, and bumped version. [Øistein Sørensen] <a href="http://github.com/5orenso/instagram-analyzer/commit/132ec7050f6b0e6d95516e44b857edae0d9d6855">view commit</a>
+* _2015-03-20_: Removed auto logging to console.log. [Øistein Sørensen] <a href="http://github.com/5orenso/instagram-analyzer/commit/5b6fe90632cce04f8916712995d8bd278f5bbb4a">view commit</a>
+* _2015-03-20_: Removed version inside config. [Øistein Sørensen] <a href="http://github.com/5orenso/instagram-analyzer/commit/7aa99f3026ccf4548305477ef1e4e89894283d93">view commit</a>
+* _2015-03-20_: Switched to debug logging. [Øistein Sørensen] <a href="http://github.com/5orenso/instagram-analyzer/commit/c58b92c08fcd1cae355c23a6ffb189992f0996dc">view commit</a>
+* _2015-03-20_: Fixed command line input. [Øistein Sørensen] <a href="http://github.com/5orenso/instagram-analyzer/commit/2ab7d7be80c0044778147e92714bcf737cb186ff">view commit</a>
+* _2015-03-20_: Added log level. [Øistein Sørensen] <a href="http://github.com/5orenso/instagram-analyzer/commit/3382c6c01b7241e97d9bafc0881adbacb56af961">view commit</a>
+* _2015-03-20_: Updated with the correct comments. [Øistein Sørensen] <a href="http://github.com/5orenso/instagram-analyzer/commit/1b94cb4fe83f10f96ad367dc3fdd526030f612e1">view commit</a>
+* _2015-03-20_: Initial commit. [Øistein Sørensen] <a href="http://github.com/5orenso/instagram-analyzer/commit/73be70febe74ce2e5f16ac966b69d80333687a48">view commit</a>
+* _2015-03-17_: Initial commit [Øistein Sørensen] <a href="http://github.com/5orenso/instagram-analyzer/commit/3f699a0143d3cb1e9e416050b00939fd5f98ba31">view commit</a>
