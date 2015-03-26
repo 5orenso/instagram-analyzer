@@ -2,6 +2,8 @@
 
 [![Build Status](https://travis-ci.org/5orenso/instagram-analyzer.svg)](https://travis-ci.org/5orenso/instagram-analyzer)
 [![Coverage Status](https://coveralls.io/repos/5orenso/instagram-analyzer/badge.svg)](https://coveralls.io/r/5orenso/instagram-analyzer)
+[![GitHub version](https://badge.fury.io/gh/5orenso%2Finstagram-analyzer.svg)](http://badge.fury.io/gh/5orenso%2Finstagram-analyzer)
+[![npm version](https://badge.fury.io/js/instagram-analyzer.svg)](http://badge.fury.io/js/instagram-analyzer)
 
 A node.js lib to get recent photos, with all likes and comments, related to a tag.
 
